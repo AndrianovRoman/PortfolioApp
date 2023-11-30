@@ -1,0 +1,315 @@
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1075px) {
+
+    .main-image {
+        width: 350px;
+    }
+
+    .skills-row {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .education-row {
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+
+/*@media screen and (max-width: 1010px){*/
+
+/*}*/
+
+@media screen and (max-width: 980px){
+    .project-item {
+        width: 350px !important;
+    }
+    .project-item-image {
+        width: 300px;
+        height: 176px;
+    }
+
+    .main__container {
+        flex-direction: column;
+    }
+
+    .main-info {
+        text-align: center;
+    }
+
+    .main-info-action {
+        margin: 0 auto;
+    }
+
+    .main-info-title {
+        margin-bottom: 500px;
+    }
+
+    .main-image {
+        position: absolute;
+        top: 300px;
+        left: calc(50% - 175px);
+    }
+
+    .form {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 961px){
+    .menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000;
+        opacity: .9;
+        z-index: 103;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .menu-item {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .project-item {
+        margin: 0 auto;
+    }
+
+    .main-info-title {
+        font-size: 25px;
+    }
+
+    .main-info-title span {
+        font-size: 30px;
+    }
+
+    .main-info-title .multiple-text {
+        font-size: 30px;
+    }
+
+    .main-image {
+        top: 230px;
+    }
+
+    .main {
+        padding: 100px 0;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+
+    .about-info-text {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .education {
+        padding: 50px 0;
+    }
+
+    .education-title {
+        font-size: 35px;
+    }
+
+    .skills {
+        padding: 30px 0;
+    }
+
+    .skills-title {
+        font-size: 35px;
+    }
+
+    .project {
+        padding: 50px 0;
+    }
+
+    .project-title {
+        font-size: 35px;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contact-title {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .form {
+        width: 400px;
+    }
+
+    .skills-content {
+        width: 350px;
+    }
+
+    .education-content-info {
+        width: 350px;
+    }
+
+    .main-info {
+        width: 350px;
+    }
+
+    .main-image {
+        width: 300px;
+        top: 250px;
+        left: calc(50% - 150px);
+    }
+
+    .about-info-text {
+        width: 350px;
+    }
+
+    .about-info {
+        width: 350px;
+    }
+
+    .main-info-title .multiple-text {
+        font-size: 20px;
+    }
+
+    .about-img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .language {
+        font-size: 10px;
+    }
+
+    .light {
+        font-size: 10px;
+    }
+
+    .footerBtn i {
+        font-size: 15px;
+    }
+
+    .footerBtn {
+        padding: 5px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .main-info {
+        width: 250px;
+    }
+
+    .main-image {
+        width: 200px;
+        top: 225px;
+        left: calc(50% - 100px);
+    }
+
+    .main-info-title {
+        font-size: 20px;
+        margin-bottom: 300px;
+    }
+
+    .main-info-title span {
+        font-size: 25px;
+    }
+
+    .main-info-action-icon a {
+        margin-right: 0;
+    }
+
+    .education-content-info {
+        width: 250px;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .education-content-image {
+        margin-top: 20px;
+    }
+
+    .skills-content {
+        width: 250px;
+    }
+
+    .project-item {
+        width: 250px !important;
+    }
+
+    .project-item-image {
+        width: 210px;
+        height: 129px;
+    }
+
+    .form {
+        width: 250px;
+    }
+
+    .form-input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logo span {
+        font-size: 15px;
+    }
+
+    .main-info-text {
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .about-info {
+        width: 250px;
+    }
+
+    .about-info-text {
+        width: 250px;
+        font-size: 16px;
+    }
+
+
+}

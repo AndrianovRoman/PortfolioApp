@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="libs/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+<body>
+
+    <button class="btn language" id="language">RUS</button>
+    <button class="btn light" id="light">Light</button>
+
+    <!--header-->
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="images/home1-transformed.png" alt="Logo">
+                </div>
+                <span class="lng-logo">Andrianov Roman</span>
+            </div>
+            <div class="menu" id="menu">
+                <div class="close">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.7457 3.32851C20.3552 2.93798 19.722 2.93798 19.3315 3.32851L12.0371 10.6229L4.74275 3.32851C4.35223 2.93798 3.71906 2.93798 3.32854 3.32851C2.93801 3.71903 2.93801 4.3522 3.32854 4.74272L10.6229 12.0371L3.32856 19.3314C2.93803 19.722 2.93803 20.3551 3.32856 20.7457C3.71908 21.1362 4.35225 21.1362 4.74277 20.7457L12.0371 13.4513L19.3315 20.7457C19.722 21.1362 20.3552 21.1362 20.7457 20.7457C21.1362 20.3551 21.1362 19.722 20.7457 19.3315L13.4513 12.0371L20.7457 4.74272C21.1362 4.3522 21.1362 3.71903 20.7457 3.32851Z" fill="#0ef"/>
+                    </svg>
+                </div>
+                <ul class="menu-items">
+                    <li class="menu-item">
+                        <a href="#home" class="lng-home">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#about" class="lng-about">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#education" class="lng-education">Education</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#skills" class="lng-skills">Skills</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#project" class="lng-project">Projects</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" class="lng-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger">
+                <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 18L20 18" stroke="#0ef" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 12L20 12" stroke="#0ef" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 6L20 6" stroke="#0ef" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!--main -- Home-->
+    <section class="main" id="home">
+        <div class="container main__container">
+            <div class="main-info">
+                <div class="main-info-title lng-mainTitle">
+                    Hello, It`s Me<br><span>Andrianov Roman</span><br>And I`m a <span class="multiple-text"></span>
+                </div>
+                <div class="main-info-text lng-mainText">
+                    This is my first project as a portfolio website
+                </div>
+                <div class="main-info-action-icon">
+                    <a href="https://t.me/RollyForce"><i class='bx bxl-telegram'></i></a>
+                    <a href="https://m.vk.com/id440019069"><i class='bx bxl-vk'></i></a>
+                    <a href="https://instagram.com/andrianov_end?igshid=OGQ5ZDc2ODk2ZA=="><i
+                            class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://github.com/AndrianovRoman"><i class='bx bxl-github'></i></a>
+                    <a href="https://discordapp.com/users/327869817103187969/"><i class='bx bxl-discord-alt'></i></a>
+                </div>
+                <div class="main-info-action">
+                    <button class="btn mainBtn"><a href="CV/CV.docx" class="lng-mainBtn">Dowload CV</a></button>
+                </div>
+            </div>
+            <div class="main-image">
+                <img src="images/home.jpg" alt="mainImage">
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about" id="about">
+        <div class="container about__container">
+            <div class="about-title lng-aboutInfo">
+                About <span>Me</span>
+            </div>
+            <div class="about-img">
+                <img src="images/home1-transformed.png" alt="" width="300px" height="300px">
+                <span class="circle-spin"></span>
+            </div>
+            <div class="about-info">
+                <div class="about-info-title lng-aboutTitle">
+                    Frontend Developer
+                </div>
+                <div class="about-info-text lng-aboutText">
+                    I'm twenty-one! I'm a beginner frontend developer! I'm just learning! Also i'm a sportsman, i go to
+                    judo! I study in VlSU! And my dream is to work in a big company as a frontend developer
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Education-->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="education-title lng-educationTitle">
+                My <span>Journey</span>
+            </div>
+            <div class="education-row">
+                <div class="education-column">
+                    <div class="education-column-title lng-educationColumnTitle1">
+                        Education
+                    </div>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="education-content-info">
+                                <div class="education-content-info-left">
+                                    <div class="education-content-info-year">
+                                        <i class='bx bxs-calendar'></i> 2018-2022
+                                    </div>
+                                    <div class="education-content-info-title lng-educationContentTitle1">
+                                        Secondary vocational education
+                                    </div>
+                                    <div class="education-content-info-text lng-educationContentText1">
+                                        Programming in computer systems
+                                    </div>
+                                </div>
+<!--                                <div class="education-content-image">-->
+<!--                                    <a href="images/FreeImage.png">-->
+<!--                                        <img src="images/FreeImage.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-content-info">
+                                <div class="education-content-info-left">
+                                    <div class="education-content-info-year">
+                                        <i class='bx bxs-calendar'></i> 2022-now
+                                    </div>
+                                    <div class="education-content-info-title lng-educationContentTitle2">
+                                        Higher education - University
+                                    </div>
+                                    <div class="education-content-info-text lng-educationContentText2">
+                                        Fundamental computer science and informational technologies
+                                    </div>
+                                </div>
+<!--                                <div class="education-content-image">-->
+<!--                                    <a href="images/FreeImage.png">-->
+<!--                                        <img src="images/FreeImage.png" alt="">-->
+<!--                                    </a>-->
+<!--                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <div class="education-column-title lng-educationColumnTitle2">
+                        Courses
+                    </div>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="education-content-info">
+                                <div class="education-content-info-left">
+                                    <div class="education-content-info-year">
+                                        <i class='bx bxs-calendar'></i> 2023
+                                    </div>
+                                    <div class="education-content-info-title">
+                                        JavaScript.ru
+                                    </div>
+                                    <div class="education-content-info-text">
+                                        Курс "JavaScript/DOM/Интерфейсы"
+                                    </div>
+                                </div>
+                                <div class="education-content-image">
+                                    <a href="images/certificate.jpg">
+                                        <img src="images/certificate.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-content-info">
+                                <div class="education-content-info-left">
+                                    <div class="education-content-info-year">
+                                        <i class='bx bxs-calendar'></i> 2023-now
+                                    </div>
+                                    <div class="education-content-info-title">
+                                        itlogia.ru
+                                    </div>
+                                    <div class="education-content-info-text">
+                                        Frontend-разработчик
+                                    </div>
+                                </div>
+                                <div class="education-content-image">
+                                    <a href="images/FreeImage.png">
+                                        <img src="images/FreeImage.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="skills-title lng-skillsTitle">
+                My <span>Skills</span>
+            </div>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <div class="skills-column-title lng-skillsColumnTitle1">
+                        Coding Skills
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    HTML <span>90%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    CSS <span>90%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    JavaScript <span>70%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skills-column-title lng-skillsColumnTitle2">
+                        Frameworks
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    Jquery <span>50%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    Angular <span>0%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="skills-content-progress">
+                                <div class="skills-content-progress-title">
+                                    React <span>0%</span>
+                                </div>
+                                <div class="skills-content-progress-bar">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section class="project" id="project">
+        <div class="container">
+            <div class="project-title lng-projectsTitle">
+                My <span>Projects</span>
+            </div>
+            <div class="project-items">
+                <div class="project-item">
+                    <div class="project-item-title">
+                        SmokeCity
+                    </div>
+                    <div class="project-item-text lng-projectsItemText1">
+                        One page site
+                    </div>
+                    <div class="project-item-image">
+                        <a href="images/smokecity.PNG">
+                            <img src="images/smokecity.PNG" alt="">
+                        </a>
+                    </div>
+                    <div class="project-item-action">
+                        <button class="btn projectBtn"><a href="https://andrianovroman.github.io/SmokeCity/">SmokeCity</a></button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-item-title">
+                        CoffeePot
+                    </div>
+                    <div class="project-item-text lng-projectsItemText2">
+                        One page site
+                    </div>
+                    <div class="project-item-image">
+                        <a href="images/coffeepot.PNG">
+                            <img src="images/coffeepot.PNG" alt="">
+                        </a>
+                    </div>
+                    <div class="project-item-action">
+                        <button class="btn projectBtn"><a href="https://andrianovroman.github.io/CoffeePot/">CoffeePot</a></button>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-item-title">
+                        MI-GUSTA
+                    </div>
+                    <div class="project-item-text lng-projectsItemText3">
+                        One page site
+                    </div>
+                    <div class="project-item-image">
+                        <a href="images/migusta.PNG">
+                            <img src="images/migusta.PNG" alt="">
+                        </a>
+                    </div>
+                    <div class="project-item-action">
+                        <button class="btn projectBtn"><a href="https://andrianovroman.github.io/MI-GUSTA/">MI-GUSTA</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacts-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-title lng-contactTitle">
+                Contact <span>Me</span>
+            </div>
+            <form action="" class="form">
+                <div class="form-input">
+                    <input type="text" class="form-input-item" placeholder="Your Name" id="name">
+                    <div class="error-input lng-inputName">Необходимо ввести имя</div>
+                </div>
+                <div class="form-input">
+                    <input type="text" class="form-input-item" placeholder="Your Surname" id="surname">
+                    <div class="error-input lng-inputSurname">Необходимо ввести фамилию</div>
+                </div>
+                <div class="form-input">
+                    <input type="text" class="form-input-item" placeholder="Your Email" id="email">
+                    <div class="error-input lng-inputEmail">Необходимо ввести email</div>
+                </div>
+                <div class="form-input">
+                    <input type="text" class="form-input-item" placeholder="Your Order" id="order">
+                    <div class="error-input lng-inputOrder">Необходимо ввести заказ</div>
+                </div>
+                <div class="form-action">
+                    <button class="btn lng-contactBtn formBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <div class="container footer__container">
+            <div class="logo">
+                <div class="logo-image">
+                    <img src="images/home1-transformed.png" alt="Logo">
+                </div>
+                <span class="lng-footerLogo">Andrianov Roman</span>
+            </div>
+            <div class="footer-action">
+                <button class="btn footerBtn"><i class='bx bx-up-arrow-alt' ></i></button>
+            </div>
+        </div>
+    </section>
+
+    <div class="loader">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="libs/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="libs/slick/slick.min.js"></script>
+<script src="libs/jquery.magnific-popup.min.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
