@@ -237,12 +237,12 @@
     }
 
     .main-info {
-        width: 250px;
+        width: 310px;
     }
 
     .main-image {
         width: 200px;
-        top: 225px;
+        top: 210px;
         left: calc(50% - 100px);
     }
 
