@@ -247,13 +247,14 @@
     }
 
     .main-info-title {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 300px;
+        white-space: nowrap;
     }
 
-    .main-info-title .multiple-text {
-        font-size: 16px;
-    }
+    /*.main-info-title .multiple-text {*/
+    /*    font-size: 16px;*/
+    /*}*/
 
     .main-info-title span {
         font-size: 25px;
