@@ -8,4 +8,4 @@
 - Валидация формы!
 - Использовались библиотеки(jquery, slick, magnific popup)!
 - Изменение цветовой темы с сохранением в localstorage!
-- Изменение языка с ENG на RUS с созранением в localstorage!
+- Изменение языка с ENG на RUS с сохранением в localstorage!
