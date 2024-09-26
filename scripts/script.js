@@ -44,19 +44,19 @@ $(document).ready(function(){
         // delegate: 'a',
         items: [
             {
-                src: '../images/Quiz/Главная.PNG'
+                src: '../images/Quiz/Main.PNG'
             },
             {
-                src: '../images/Quiz/Выбор темы.PNG'
+                src: '../images/Quiz/Topics.PNG'
             },
             {
-                src: '../images/Quiz/Начало теста.PNG'
+                src: '../images/Quiz/Start.PNG'
             },
             {
-                src: '../images/Quiz/результат.PNG'
+                src: '../images/Quiz/Result.PNG'
             },
             {
-                src: '../images/Quiz/Выбор темы с результатом.PNG'
+                src: '../images/Quiz/TopicsWithResult.PNG'
             }
         ],
         type: 'image',
@@ -70,13 +70,13 @@ $(document).ready(function(){
         // delegate: 'a',
         items: [
             {
-                src: '../images/IncomeAndExpenses/Главная.PNG'
+                src: '../images/IncomeAndExpenses/Main.PNG'
             },
             {
-                src: '../images/IncomeAndExpenses/Доходы и расходы.PNG'
+                src: '../images/IncomeAndExpenses/IncomeAndExpenses.PNG'
             },
             {
-                src: '../images/IncomeAndExpenses/Список категрий.PNG'
+                src: '../images/IncomeAndExpenses/Categories.PNG'
             }
         ],
         type: 'image',
@@ -90,13 +90,13 @@ $(document).ready(function(){
         // delegate: 'a',
         items: [
             {
-                src: '../images/АйтиШторм/Главная.png'
+                src: '../images/ITStorm/Main.png'
             },
             {
-                src: '../images/АйтиШторм/Статьи.png'
+                src: '../images/ITStorm/Articles.png'
             },
             {
-                src: '../images/АйтиШторм/Отдельная статья.png'
+                src: '../images/ITStorm/detailArticle.png'
             }
         ],
         type: 'image',
