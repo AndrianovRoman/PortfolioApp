@@ -6,19 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd39fe5c-a125-48d8-a50f-8d88f5f768f3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IncomeAndExpenses/Главная.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/IncomeAndExpenses/Main.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IncomeAndExpenses/Доходы и расходы.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/IncomeAndExpenses/IncomeAndExpenses.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IncomeAndExpenses/Список категрий.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/IncomeAndExpenses/Categories.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Quiz/Выбор темы с результатом.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Quiz/TopicsWithResult.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Quiz/Выбор темы.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Quiz/Topics.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Quiz/Главная.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Quiz/Main.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Quiz/Начало теста.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Quiz/Start.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Quiz/результат.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/images/Quiz/Result.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/АйтиШторм/Главная.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ITStorm/Main.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/АйтиШторм/Отдельная статья.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ITStorm/detailArticle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/АйтиШторм/Статьи.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ITStorm/Articles.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Projects images/ITStorm.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ITStorm/ITStorm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,26 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/79997/Desktop/JavaScript самообучение/Проекты/PortfolioApp",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/79997/Desktop/JavaScript самообучение/Проекты/PortfolioApp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\79997\Desktop\JavaScript самообучение\Проекты\PortfolioApp\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79997\Desktop\JavaScript самообучение\Проекты\PortfolioApp\images\ITStorm" />
       <recent name="C:\Users\79997\Desktop\JavaScript самообучение\Проекты\PortfolioApp\images" />
     </key>
   </component>
@@ -99,7 +89,8 @@
       <workItem from="1715061746179" duration="71000" />
       <workItem from="1725117459856" duration="36000" />
       <workItem from="1727338321563" duration="1421000" />
-      <workItem from="1727351135918" duration="2279000" />
+      <workItem from="1727351135918" duration="2354000" />
+      <workItem from="1727354030635" duration="47000" />
     </task>
     <servers />
   </component>
