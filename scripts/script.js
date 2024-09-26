@@ -40,71 +40,71 @@ $(document).ready(function(){
         // other options
     });
 
-    $('.quiz').magnificPopup({
-        // delegate: 'a',
-        items: [
-            {
-                src: '../images/Quiz/Main.PNG'
-            },
-            {
-                src: '../images/Quiz/Topics.PNG'
-            },
-            {
-                src: '../images/Quiz/Start.PNG'
-            },
-            {
-                src: '../images/Quiz/Result.PNG'
-            },
-            {
-                src: '../images/Quiz/TopicsWithResult.PNG'
-            }
-        ],
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-        // other options
-    });
-
-    $('.incomeAndExpenses').magnificPopup({
-        // delegate: 'a',
-        items: [
-            {
-                src: '../images/IncomeAndExpenses/Main.PNG'
-            },
-            {
-                src: '../images/IncomeAndExpenses/IncomeAndExpenses.PNG'
-            },
-            {
-                src: '../images/IncomeAndExpenses/Categories.PNG'
-            }
-        ],
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-        // other options
-    });
-
-    $('.ITStorm').magnificPopup({
-        // delegate: 'a',
-        items: [
-            {
-                src: '../images/ITStorm/Main.png'
-            },
-            {
-                src: '../images/ITStorm/Articles.png'
-            },
-            {
-                src: '../images/ITStorm/detailArticle.png'
-            }
-        ],
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-        // other options
-    });
+    // $('.quiz').magnificPopup({
+    //     // delegate: 'a',
+    //     items: [
+    //         {
+    //             src: '../images/Quiz/Main.PNG'
+    //         },
+    //         {
+    //             src: '../images/Quiz/Topics.PNG'
+    //         },
+    //         {
+    //             src: '../images/Quiz/Start.PNG'
+    //         },
+    //         {
+    //             src: '../images/Quiz/Result.PNG'
+    //         },
+    //         {
+    //             src: '../images/Quiz/TopicsWithResult.PNG'
+    //         }
+    //     ],
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    //     // other options
+    // });
+    //
+    // $('.incomeAndExpenses').magnificPopup({
+    //     // delegate: 'a',
+    //     items: [
+    //         {
+    //             src: '../images/IncomeAndExpenses/Main.PNG'
+    //         },
+    //         {
+    //             src: '../images/IncomeAndExpenses/IncomeAndExpenses.PNG'
+    //         },
+    //         {
+    //             src: '../images/IncomeAndExpenses/Categories.PNG'
+    //         }
+    //     ],
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    //     // other options
+    // });
+    //
+    // $('.ITStorm').magnificPopup({
+    //     // delegate: 'a',
+    //     items: [
+    //         {
+    //             src: '../images/ITStorm/Main.png'
+    //         },
+    //         {
+    //             src: '../images/ITStorm/Articles.png'
+    //         },
+    //         {
+    //             src: '../images/ITStorm/detailArticle.png'
+    //         }
+    //     ],
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    //     // other options
+    // });
 
     $('.education-content-image').magnificPopup({
         delegate: 'a',
