@@ -29,6 +29,10 @@ body {
     color: var(--white);
 }
 
+.gallery-none {
+    display: none;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
