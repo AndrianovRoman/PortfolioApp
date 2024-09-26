@@ -65,7 +65,7 @@ header {
     height: 50px;
     border-radius: 50px;
     overflow: hidden;
-    background: #0062b9;
+    /*background: #0062b9;*/
 }
 
 .logo-image img {
@@ -463,16 +463,16 @@ header {
     width: 90%;
 }
 .skills-column:nth-child(1) .skills-content .skills-content-progress:nth-child(3) .skills-content-progress-bar span {
-    width: 70%;
+    width: 90%;
 }
 .skills-column:nth-child(2) .skills-content .skills-content-progress:nth-child(1) .skills-content-progress-bar span {
     width: 50%;
 }
 .skills-column:nth-child(2) .skills-content .skills-content-progress:nth-child(2) .skills-content-progress-bar span {
-    width: 1%;
+    width: 70%;
 }
 .skills-column:nth-child(2) .skills-content .skills-content-progress:nth-child(3) .skills-content-progress-bar span {
-    width: 1%;
+    width: 10%;
 }
 
 /*for Project styles*/

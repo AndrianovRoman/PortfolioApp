@@ -35,7 +35,73 @@ $(document).ready(function(){
         delegate: 'a',
         type: 'image',
         gallery: {
-            enable: true
+            enabled: false
+        }
+        // other options
+    });
+
+    $('.quiz').magnificPopup({
+        // delegate: 'a',
+        items: [
+            {
+                src: '../images/Quiz/Главная.PNG'
+            },
+            {
+                src: '../images/Quiz/Выбор темы.PNG'
+            },
+            {
+                src: '../images/Quiz/Начало теста.PNG'
+            },
+            {
+                src: '../images/Quiz/результат.PNG'
+            },
+            {
+                src: '../images/Quiz/Выбор темы с результатом.PNG'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+        // other options
+    });
+
+    $('.incomeAndExpenses').magnificPopup({
+        // delegate: 'a',
+        items: [
+            {
+                src: '../images/IncomeAndExpenses/Главная.PNG'
+            },
+            {
+                src: '../images/IncomeAndExpenses/Доходы и расходы.PNG'
+            },
+            {
+                src: '../images/IncomeAndExpenses/Список категрий.PNG'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+        // other options
+    });
+
+    $('.ITStorm').magnificPopup({
+        // delegate: 'a',
+        items: [
+            {
+                src: '../images/АйтиШторм/Главная.png'
+            },
+            {
+                src: '../images/АйтиШторм/Статьи.png'
+            },
+            {
+                src: '../images/АйтиШторм/Отдельная статья.png'
+            }
+        ],
+        type: 'image',
+        gallery: {
+            enabled: true
         }
         // other options
     });
@@ -44,7 +110,7 @@ $(document).ready(function(){
         delegate: 'a',
         type: 'image',
         gallery: {
-            enable: true
+            enabled: false
         }
         // other options
     });
@@ -67,7 +133,7 @@ $(document).ready(function(){
         if (window.hasOwnProperty('localStorage'))
             window.localStorage.setItem('theme', theme);
         if (theme === 'light') {
-            root.css('--main-bg-color', '#0ef').css('--text-color', '#1f242d').css('--white', '#000');
+            root.css('--main-bg-color', '#45d8e5').css('--text-color', '#1f242d').css('--white', '#000');
             flagLight = 0;
             light.text('Dark');
         } else {
@@ -92,12 +158,12 @@ $(document).ready(function(){
                 skills: 'Skills',
                 project: 'Projects',
                 contact: 'Contact',
-                mainTitle: 'Hello, It`s Me<br><span>Andrianov Roman</span><br>And I`m a <span class="multiple-text"></span>',
+                mainTitle: 'Hello, My name is<br><span>Andrianov Roman</span><br>And I`m a <span class="multiple-text"></span>',
                 mainText: 'This is my first project as a portfolio website',
                 mainBtn: 'Dowload CV',
                 aboutInfo: 'About <span>Me</span>',
                 aboutTitle: 'Frontend Developer',
-                aboutText: 'I\'m twenty-one! I\'m a beginner frontend developer! I\'m just learning! Also i\'m a sportsman, i go to judo! I study in VlSU! And my dream is to work in a big company as a frontend developer',
+                aboutText: 'I\'m twenty-two! I\'m a beginner frontend developer! I\'m just learning! Also i\'m a sportsman, i go to judo! I study in VlSU! And my dream is to work in a big company as a frontend developer',
                 educationTitle: 'My <span>Journey</span>',
                 educationColumnTitle1: 'Education',
                 educationContentTitle1: 'Secondary vocational education',
@@ -130,12 +196,12 @@ $(document).ready(function(){
                 skills: 'Навыки',
                 project: 'Проекты',
                 contact: 'Контакт',
-                mainTitle: 'Привет, Это я<br><span>Андрианов Роман</span><br>И я <span class="multiple-text"></span>',
+                mainTitle: 'Привет, Меня зовут<br><span>Андрианов Роман</span><br>И я <span class="multiple-text"></span>',
                 mainText: 'Это мой первый проект в виде сайта портфолио',
                 mainBtn: 'Скачать CV',
                 aboutInfo: 'Обо <span>Мне</span>',
                 aboutTitle: 'Frontend Разработчик',
-                aboutText: 'Мне двадцать один год! Я начинающий frontend разработчик! Я только учусь! Также я занимаюсь спортом, я хожу на дзюдо! Я учусь в ВлГУ! И моя мечта работать в большой компании frontend разработчиком!',
+                aboutText: 'Мне двадцать два года! Я начинающий frontend разработчик! Я только учусь! Также я занимаюсь спортом, я хожу на дзюдо! Я учусь в ВлГУ! И моя мечта работать в большой компании frontend разработчиком!',
                 educationTitle: 'Мой <span>Путь</span>',
                 educationColumnTitle1: 'Образование',
                 educationContentTitle1: 'Среднее профессиональное образование',
